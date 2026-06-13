@@ -19,7 +19,7 @@ interface Session {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = parseInt(process.env.PORT || '5000', 10);
   const httpServer = createServer(app);
 
   // In-memory active casting sessions

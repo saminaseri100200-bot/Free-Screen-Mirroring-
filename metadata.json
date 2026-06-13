@@ -1,0 +1,6 @@
+{
+  "name": "iOS Screen Mirroring Receiver",
+  "description": "LetsView-style screen mirroring hub supporting high frame-rate cast (up to 120 FPS) over Wi-Fi and Bluetooth profiles.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
